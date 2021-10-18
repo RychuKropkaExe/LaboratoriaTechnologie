@@ -14,6 +14,9 @@ public class AreaCalculator extends Figure{
           System.out.println("Your Sqare has area of " + Square.SquareArea(value));
           tmp.area=Square.SquareArea(value);
       }
+      else{
+          System.out.println("Nie wybrałeś żadnej figury, pozdrawiwam");
+      }
   }
 }
 
