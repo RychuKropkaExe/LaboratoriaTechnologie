@@ -5,6 +5,10 @@ digraph domain {
     label = "Calculator";
     AreaCalculator [ label = "{AreaCalculator | + main(args : String[])\l}" ] 
     Circle [ label = "{Circle | + CircleArea(r : double) : double\l}" ] 
+    Figure [ label = "{Figure | }" ] 
     Square [ label = "{Square | + SquareArea(a : double) : double\l}" ] 
   }
+  AreaCalculator -> Figure [arrowhead=empty color=slategray];
+  Circle -> Figure [arrowhead=empty color=slategray];
+  Square -> Figure [arrowhead=empty color=slategray];
 }

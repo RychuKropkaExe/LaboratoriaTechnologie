@@ -1,6 +1,6 @@
 package Calculator;
 
-public class AreaCalculator {
+public class AreaCalculator extends Figure{
   public static void main(String[] args) {
       String figure = args[0];
       double value = Double.parseDouble(args[1]);

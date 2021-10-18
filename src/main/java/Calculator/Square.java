@@ -1,6 +1,6 @@
 package Calculator;
 
-public class Square {
+public class Square extends Figure{
     double side;
     double area;
     Square(double a){
