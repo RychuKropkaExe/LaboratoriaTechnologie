@@ -24,9 +24,35 @@
             <artifactId>uml</artifactId>
             <version>2.0.4</version>
         </dependency>
-
-
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.iluwatar.urm</groupId>
+                <artifactId>urm-maven-plugin</artifactId>
+                <version>1.4.8</version>
+                <configuration>
+                    <outputDirectory>${project.basedir}/target</outputDirectory>
+                    <packages>
+                        <param>Calculator</param>
+                    </packages>
+                    <ignores>
+                    </ignores>
+                    <includeMainDirectory>true</includeMainDirectory>
+                    <includeTestDirectory>false</includeTestDirectory>
+                    <presenter>graphviz</presenter>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>map</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
         <reporting>
             <plugins>
                 <plugin>
@@ -40,12 +66,14 @@
                         </rulesets>
                     </configuration>
                 </plugin>
+
             </plugins>
         </reporting>
 
+
     <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
     </properties>
 
 </project>

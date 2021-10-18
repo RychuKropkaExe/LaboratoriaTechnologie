@@ -1,0 +1,10 @@
+digraph domain {
+  edge [ fontsize = 11 ];
+  node [ shape=record ];
+  subgraph cluster_0 {
+    label = "Calculator";
+    AreaCalculator [ label = "{AreaCalculator | + main(args : String[])\l}" ] 
+    Circle [ label = "{Circle | }" ] 
+    Square [ label = "{Square | }" ] 
+  }
+}
