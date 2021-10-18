@@ -4,7 +4,7 @@ digraph domain {
   subgraph cluster_0 {
     label = "Calculator";
     AreaCalculator [ label = "{AreaCalculator | + main(args : String[])\l}" ] 
-    Circle [ label = "{Circle | }" ] 
-    Square [ label = "{Square | }" ] 
+    Circle [ label = "{Circle | + CircleArea(r : double) : double\l}" ] 
+    Square [ label = "{Square | + SquareArea(a : double) : double\l}" ] 
   }
 }

@@ -2,6 +2,7 @@ package Calculator;
 
 public class Square {
     double side;
+    double area;
     Square(double a){
         side = a;
     }
