@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>LaboratoriaTechnologie</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>net.sourceforge.pmd</groupId>
+            <artifactId>pmd</artifactId>
+            <version>6.38.0</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.puppycrawl.tools</groupId>
+            <artifactId>checkstyle</artifactId>
+            <version>9.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.umlg</groupId>
+            <artifactId>uml</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+
+
+    </dependencies>
+        <reporting>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-pmd-plugin</artifactId>
+                    <version>3.7</version>
+                    <configuration>
+                        <rulesets>
+                            <ruleset>/rulesets/java/braces.xml</ruleset>
+                            <ruleset>/rulesets/java/naming.xml</ruleset>
+                        </rulesets>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </reporting>
+
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
+
+</project>
