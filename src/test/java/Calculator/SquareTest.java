@@ -11,6 +11,6 @@ class SquareTest {
     @Test
     public void shouldCalculatearea(){
         Square square = new Square(2);
-        Assertions.assertEquals(4,square.SquareArea());
+        Assertions.assertEquals(5,square.SquareArea());
     }
 }
