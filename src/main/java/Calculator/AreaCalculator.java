@@ -11,7 +11,7 @@ public class AreaCalculator extends Figure{
       }
       if(figure.equals("S")){
           Square tmp = new Square(value);
-          System.out.println("Your Sqare has area of " + Square.SquareArea());
+          System.out.println("Your Sqare has area of " + tmp.SquareArea());
           tmp.area=Square.SquareArea();
       }
       else{

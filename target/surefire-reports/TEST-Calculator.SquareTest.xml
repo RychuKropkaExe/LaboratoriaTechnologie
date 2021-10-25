@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Calculator.SquareTest" time="0.028" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Calculator.SquareTest" time="0.027" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\ihunt\AppData\Local\Temp\surefire16527041388688414887\surefirebooter12654724817594871156.jar C:\Users\ihunt\AppData\Local\Temp\surefire16527041388688414887 2021-10-25T20-22-59_451-jvmRun1 surefire16880659149265460543tmp surefire_01471361814678140723tmp"/>
+    <property name="sun.java.command" value="C:\Users\ihunt\AppData\Local\Temp\surefire16721450450013367672\surefirebooter4089002469421444442.jar C:\Users\ihunt\AppData\Local\Temp\surefire16721450450013367672 2021-10-25T21-07-09_329-jvmRun1 surefire3248550440868819556tmp surefire_01280396480846085864tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ihunt\IdeaProjects\LaboratoriaTechnologie\target\test-classes;C:\Users\ihunt\IdeaProjects\LaboratoriaTechnologie\target\classes;C:\Users\ihunt\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\ihunt\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ihunt\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\ihunt\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\ihunt\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\ihunt\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ihunt\AppData\Local\Temp\surefire16527041388688414887\surefirebooter12654724817594871156.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ihunt\AppData\Local\Temp\surefire16721450450013367672\surefirebooter4089002469421444442.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -56,9 +56,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="shouldCalculatearea" classname="Calculator.SquareTest" time="0.023">
-    <failure message="expected: &lt;5.0&gt; but was: &lt;4.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <5.0> but was: <4.0>
-	at Calculator.SquareTest.shouldCalculatearea(SquareTest.java:14)
+  <testcase name="shouldCalculateare2" classname="Calculator.SquareTest" time="0.021">
+    <failure message="expected: &lt;19.739208802178716&gt; but was: &lt;9.869604401089358&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <19.739208802178716> but was: <9.869604401089358>
+	at Calculator.SquareTest.shouldCalculateare2(SquareTest.java:19)
 ]]></failure>
   </testcase>
+  <testcase name="shouldCalculatearea" classname="Calculator.SquareTest" time="0"/>
 </testsuite>
