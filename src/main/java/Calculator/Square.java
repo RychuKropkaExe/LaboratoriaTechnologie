@@ -1,12 +1,13 @@
 package Calculator;
 
 public class Square extends Figure{
-    double side;
-    double area;
+    static double side;
+    static double area;
     Square(double a){
         side = a;
     }
-    public static double SquareArea(double a){
-        return a*a;
+    public static double SquareArea(){
+        return side*side;
     }
+
 }
