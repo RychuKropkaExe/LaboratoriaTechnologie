@@ -1,20 +1,30 @@
 package calculator;
 
-public class AreaCalculator extends Figure{
-  public static void main(String[] args) {
+/**
+ * Main class that run simple calculator.
+ */
+public final class AreaCalculator {
+    private AreaCalculator() {
+    }
+    /**
+     * basically it does the same as the whole class.
+     * @param args it takes users input.
+     *
+     */
+  public static void main(final String[] args) {
       String figure = args[0];
       double value = Double.parseDouble(args[1]);
-      if (figure.equals("C")){
+      if (figure.equals("C")) {
           Circle tmp = new Circle(value);
-          System.out.println("Your Circle has area of" + " " + Circle.CircleArea(value));
-          tmp.area=Circle.CircleArea(value);
+          System.out.println("Your Circle has area of"
+                  + " " + Circle.CircleArea(value));
+          tmp.area = Circle.CircleArea(value);
       }
-      if(figure.equals("S")){
+      if (figure.equals("S")) {
           Square tmp = new Square(value);
           System.out.println("Your Sqare has area of " + tmp.SquareArea());
-          tmp.area=Square.SquareArea();
-      }
-      else{
+          tmp.area = Square.SquareArea();
+      } else {
           System.out.println("Nie wybrałeś żadnej figury, pozdrawiwam");
       }
   }
