@@ -45,7 +45,7 @@
            <configuration>
                <outputDirectory>${project.basedir}/target</outputDirectory>
                <packages>
-                   <param>Calculator</param>
+                   <param>calculator</param>
                </packages>
                <ignores>
                </ignores>
