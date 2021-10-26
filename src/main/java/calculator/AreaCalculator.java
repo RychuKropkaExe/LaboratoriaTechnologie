@@ -22,8 +22,8 @@ public final class AreaCalculator {
       }
       if (figure.equals("S")) {
           Square tmp = new Square(value);
-          System.out.println("Your Sqare has area of " + tmp.SquareArea());
-          tmp.area = Square.SquareArea();
+          System.out.println("Your Sqare has area of " + tmp.squarearea());
+          tmp.setArea(Square.squarearea());
       } else {
           System.out.println("Nie wybrałeś żadnej figury, pozdrawiwam");
       }

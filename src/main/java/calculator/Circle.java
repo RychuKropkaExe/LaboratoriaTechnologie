@@ -1,5 +1,5 @@
 package calculator;
-public class Circle extends Figure{
+public class Circle extends Figure {
     double radius;
     double area;
     Circle(double a){
