@@ -16,6 +16,10 @@ public class Square extends Figure {
         side = a;
     }
 
+    public Square() {
+
+    }
+
     /**
      * a metod to calculate area of given square.
      * @return area of square.

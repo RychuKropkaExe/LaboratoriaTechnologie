@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Calculator.SquareTest
+Test set: calculator.SquareTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in Calculator.SquareTest
-shouldCalculateare2  Time elapsed: 0.021 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <19.739208802178716> but was: <9.869604401089358>
-	at Calculator.SquareTest.shouldCalculateare2(SquareTest.java:19)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in calculator.SquareTest

@@ -1,10 +1,11 @@
 package calculator;
 
 /**
- * Main class that run simple calculator.
+ * Main class that runs simple calculator.
  */
-public final class AreaCalculator {
+public final class AreaCalculator extends Square {
     private AreaCalculator() {
+        super();
     }
     /**
      * basically it does the same as the whole class.
